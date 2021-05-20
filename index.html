@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" style= background-color:darkseagreen>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+</head>
+<style>
+    h1 {text-align: center;}
+    h2 {text-align: center;}
+</style>
+<body>
+<h1>Welcome to the World Food Shoppe!</h1>
+<h2>Please choose your items</h2>
+
+<ul> 
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+                <img src="Tourtiere.jpg" width="150" height="150" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Tourtiere $7.95</h3>
+                  <p class="card-text">French Canadian meat pie in a flaky crust</p>
+                  <button onclick="Tourtiere()">Add to Cart</button>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+                <img src="Soondubu.jpg" width="150" height="150" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Soondubu: $12.00</h3>
+                  <p class="card-text">Spicy Korean soft tofu stew with vegetables and egg</p>
+                  <button onclick="Soondubu()">Add to Cart</button>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+                <img src="Palak.JPG" width="150" height="150" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Palak Paneer: $9.99</h3>
+                  <p class="card-text">Indian style mixed greens with cheese</p>
+                  <button onclick="PalakPaneer()">Add to Cart</button>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+                <img src="Panang.jpg" width="150" height="150" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h3 class="card-title">Panang Curry: $8.00</h3>
+                    <p class="card-text">Spicy and sweet Thai curry served with jasmine rice</p>
+                    <button onclick="PanangCurry()">Add to Cart</button>
+                </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+                <img src="Bravas.jpg" width="150" height="150" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">Patatas Bravas: $6.50</h4>
+                  <p class="card-text">Fried potatoes with paprika sauce and garlic aioli</p>
+                  <button onclick="PatatasBravas()">Add to Cart</button>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="Cart.jpg" width="150" height="150" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h3 class="card-title">Display Cart</h3>
+                      <p class="card-text">Display cart items with prices and total price</p>
+                      <button onclick="DisplayCart()">Display Cart</button>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>          
+</ul>
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
